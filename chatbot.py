@@ -13,7 +13,7 @@ client = openai.Client()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def chatbot():
-    messages = [{"role": "system", "content": "You are a helpful assistant."}]
+    messages = [{"role": "system", "content": ""}]
 
     while True:
         message = input("👤: ")
